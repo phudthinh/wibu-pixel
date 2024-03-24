@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/output.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/images/Icon.png" />
+    <title>WibuPixel</title>
+    <meta
+      name="description"
+      content="Tựa game đang được chờ đợi nhất năm 2024"
+    />
+    <meta name="keywords" content="WibuPixel" />
+    <meta name="author" content="WibuPixel" />
+    <meta property="og:title" content="WibuPixel" />
+    <meta property="og:description" content="WibuPixel" />
+    <meta property="og:image" content="./assets/images/thumbnail.png" />
+    <meta property="og:url" content="https://wibupixel.online" />
+    <meta property="og:site_name" content="WibuPixel" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WibuPixel" />
+    <meta name="twitter:description" content="WibuPixel" />
+    <meta name="twitter:image" content="./assets/images/thumbnail.png" />
+    <meta name="twitter:url" content="https://wibupixel.online" />
+    <meta name="twitter:site" content="@WibuPixel" />
+    <meta name="twitter:creator" content="@WibuPixel" />
+  </head>
+  <body>
+    <section class="banner">
+      <div class="container">
+        <div id="scene">
+          <div data-depth="0.05">
+            <img class="image-BG" src="./assets/images/BG-01.png" />
+          </div>
+          <div data-depth="0.05">
+            <img class="image-BG" src="./assets/images/BG-02.png" />
+          </div>
+          <div data-depth="-0.05">
+            <img class="image-BG" src="./assets/images/BG-03.png" />
+          </div>
+          <div data-depth="0.06">
+            <img class="image-BG" src="./assets/images/BG-04.png" />
+          </div>
+          <div data-depth="0.1">
+            <img class="image-BG character" src="./assets/images/Goku.gif" />
+          </div>
+          <div data-depth="0.1">
+            <img class="image-BG character" src="./assets/images/Luffy.gif" />
+          </div>
+          <div data-depth="0.1">
+            <img class="image-BG character" src="./assets/images/Naruto.gif" />
+          </div>
+          <div data-depth="0.05">
+            <img class="image-BG" src="./assets/images/Frieza.png" />
+          </div>
+        </div>
+      </div>
+      <div class="Logo">
+        <img src="./assets/images/LogoWibuPixel.png" />
+      </div>
+      <a class="Button" download href="./Wibupixel.rar"></a>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+      var scene = document.getElementById("scene");
+      var parallaxInstance = new Parallax(scene);
+    </script>
+  </body>
+</html>
